@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUI website</title>
+</head>
+<body>
+    <h1>boekingsformulier</h1>
+    <form action="/action_page.php">
+        
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="">
+        
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" value="">
+        
+        <label for="gender">gender</label>
+        <input type="text" id="gender" name="gender" value="Man"><br><br>
+        
+        <label for="landENstad">Land en stad</label>
+        <input type="text" id="landENstad" name="landENstad" value="">
+        
+        <label for="StraatEnzo">Straat en nummer, postcode</label>
+        <input type="text" id="StraatEnzo">
+
+        <label for="BSNnummer">BSN nummer</label>
+        <input type="text" id="BSNnummer" name="BSNnummer" value="" min="1" max="9">
+        
+        <br><br><label for="">Welk vakantie land?</label>
+          <input type="radio" id="Engeland" Value="" name="">
+          <label for="Engeland">Engeland</label>
+          <input type="radio" id="China" name="" value="">
+          <label for="China">China</label>
+          <input type="radio" id="Pakistan" name="" value="">
+          <label for="Pakistan">Pakistan</label>
+          <input type="radio" id="Pakistan" name="" value="">
+          <label for="Pakistan">Pakistan</label>
+        
+        <br><br><label for="vertrek">Vertrek datum</label>
+        <input type="date" id="vertrek">
+
+        <br><label for="terug">Terugkomst datum</label>
+        <input type="date" id="terug" min="1" max="2">
+
+        <br><br><label for="">Hoeveel mensen?</label>
+          <input type="radio" id="1" Value="" name="">
+          <label for="1">1</label>
+          <input type="radio" id="2" name="" value="">
+          <label for="2">2</label>
+          <input type="radio" id="3" name="" value="">
+          <label for="3">3</label>
+          <input type="radio" id="4" name="" value="">
+          <label for="4">4</label>
+
+        <br><br><input type="submit" value="Boek nu!">
+
+        <br><br><label for="email">E-mail</label>
+        <input type="email" name="" id="email">
+
+        <br><label for="password">Wachtwoord</label>
+        <input type="password" id="password" value="">
+
+        <br><input type="submit" value="Account aanmaken / Inloggen">
+    </form>
+
+</body>
+</html>

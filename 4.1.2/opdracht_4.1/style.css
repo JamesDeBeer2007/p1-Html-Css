@@ -1,0 +1,49 @@
+h1 {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  h2{
+      color: #0000ff; 
+      font-size: 20px;
+      font-weight: bold;
+  }
+  h3{
+      color: teal;
+      font-size: 16px;
+      font-weight: bold;
+  }
+  p{
+      color: #4D4D4D;
+  }
+  header p{
+    font-weight: bold;
+    color: #4D4D4D;
+  }
+  a{
+      color:  #8A2BE2;
+      text-decoration: none
+  }
+  header{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+  }
+  header{
+    height: 50vh;
+    width: 100vh;
+    background-image: url(/gaming.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+  }
+  img{
+    width: 50%;
+  }
+  header p{
+    color: aliceblue;
+  }
+  article{
+    border-style: groove;
+    border-color: #8A2BE2;
+  }
